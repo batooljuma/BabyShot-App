@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import { SearchService } from "../components/services/searchService";
+import { SearchService } from "../services/searchService";
 
 const useProductSearch = () => {
   const [searchResults, setSearchResults] = useState([]);
